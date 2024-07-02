@@ -1,0 +1,452 @@
+html {
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin:0;
+}
+img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ghat {
+    height: 200px;
+    /* object-fit: cover; */
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+}
+
+.content {
+    /* flex: 0 60%; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 400; */
+    font-size: 16px;
+}
+
+.content h2 {
+    color: #000080;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.tourguide {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.details img {
+    width: 249.5px;
+    height: 249.5px;
+}
+
+.description h2 {
+    color: #000080;
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main section {
+    padding: 5vmax 17vmax;
+    align-items: center;
+}
+
+.strong {
+    color: #e95095;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.strong:hover {
+    transition: color 0.3s;
+    color: #7049ba;
+}
+
+.details p:nth-of-type(1) {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
+}
+
+.details p:nth-of-type(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+}
+
+.details p:nth-of-type(3) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 1.5rem;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+    align-items: center;
+}
+
+.photo p {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.photo img {
+    width: 249.5px;
+    height: 249.5px;
+}
+
+section p {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+section p {
+    /* color: #000080; */
+    font-weight: 400;
+}
+
+section p:nth-last-child(1) {
+    margin: 48px 0px 64px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 3rem;
+}
+
+.book {
+    width: 624px;
+    height: 532.438px;
+    padding: 0 5% 2.5%;
+    text-align: center;
+    background-color: #F27EF2;
+    color: #000080;
+}
+
+h4 {
+    color: #000080;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    margin: 0 0 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.bd ul li {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+}
+
+form button {
+    padding: 0.9em 1.8em;
+    margin: 0.5rem 0;
+    border: 0px solid #ccc;
+    font-size: 16px;
+    line-height: 1.20 !important;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0em;
+    border-radius: 0.3em;
+    padding: 1em 2em;
+    background: linear-gradient(135deg, #e95095, #7049ba);
+    border-color: transparent;
+    color: #ffffff !important;
+    box-shadow: 0 0em 0em rgba(0, 0, 0, 0.2);
+    font-family: "Open Sans", sans-serif;
+}
+
+form button:hover {
+    background: linear-gradient(-45deg, #e95095, #7049ba);
+}
+
+.testi {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials div {
+    border-radius: 0.3rem;
+    padding: 2rem;
+    border: 2px solid #e8e8e8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 1.5rem;
+    transition: border-color 0.3s ease-out;
+}
+
+.testimonials div:hover {
+    border-color: #e95095;
+}
+.testimonials div div{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    height: 60px;
+    border-radius: 0rem;
+    padding: 0rem;
+    border: 0px solid #e8e8e8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    transition: border-color 0.3s ease-out;
+}
+.testimonials div div:nth-of-type(1){
+    height: 10px;
+}
+.testimonials div div img{
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+.testimonials div div div{
+    margin:0 1em 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+}
+.testimonials div div div p{
+    margin:0.5em 0em 0;
+    font-weight:600;
+    font-family: 'Open Sans', sans-serif;
+}
+.testimonials div div div span{
+    margin:0em 0em 0;
+    font-weight:400;
+    font-family: 'Open Sans', sans-serif;
+    color: #999999!important;
+    font-size: 0.9rem !important;
+}
+
+footer section {
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+}
+
+footer .overlay-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    position: absolute;
+    background-color: rgba(26, 26, 26, 0.85);
+    padding: 2vmax 4rem 0;
+    width: 93%;
+    height: 72%;
+}
+
+footer .image-section {
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+footer {
+    position: relative;
+    /* Ensure the footer is positioned relative to the viewport */
+    overflow: hidden;
+    /* Prevents the horizontal scroll bar from appearing */
+}
+
+.overlay-section div h4 {
+    color: #BBBBBB;
+}
+.overlay-section div div a{
+    text-decoration: none;
+}
+.overlay-section div div a span{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+.overlay-section ul li {
+    color: #BBBBBB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.overlay-section ul li a {
+    color: white;
+    text-decoration: none;
+    /* display: block; */
+    transition: 0.3s color;
+}
+.overlay-section ul li a:hover {
+    color: #e95095
+}
+
+.overlay-section ul li div {
+    font-size: 0.9rem;
+    opacity: 0.5;
+}
+.overlay-section div:nth-of-type(3) > div:nth-child(-n+4) svg{
+    margin-right: 10px;
+}
+.overlay-section div:nth-of-type(3) > div:nth-child(-n+4):nth-child(n) svg g:hover,
+.overlay-section div:nth-of-type(3) > div:nth-child(-n+4):nth-child(n) span:hover{
+    stroke: #e95095;
+    color:#e95095;
+    transition: stroke 0.3s, color 0.3s;
+}
+.overlay-section div div div {
+    border-radius: 10%;
+    padding: 0.1em;
+    background-color: #222222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+}
+.overlay-section div div a svg{
+    width: 1.5em;
+    height: 1.5em;
+}
+.overlay-section div div:nth-of-type(2) a svg path:hover{
+    stroke: #e95095;
+    transition: stroke 0.3s;
+}
+.overlay-section div div div svg {
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.overlay-section div div div:nth-of-type(1):hover {
+    background-color: #1e77f0;
+}
+
+.overlay-section div div div:nth-of-type(2):hover {
+    background-color: #f00;
+}
+
+.overlay-section div div div:nth-of-type(3):hover {
+    background: radial-gradient(circle farthest-corner at 35% 100%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 10% 140%, #feda7e, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e42e66 50%, #fa5332 70%, #ffdc80 100%);
+}
+
+.overlay-section div div div:nth-of-type(4):hover {
+    background-color: #34e0a1;
+}
+
+.overlay-section div div div:nth-of-type(5):hover {
+    background-color: #25d366;
+}
+
+footer section:nth-of-type(3){
+    background: #222222;
+    border-color: #333333;
+    width: 100%;
+    height: 48px;
+    padding: 2rem 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer section:nth-of-type(3) div{
+    font-family: 'Open Sans', sans-serif;
+    height: 48px;
+    width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer section:nth-of-type(3) div span:nth-of-type(1){
+    color: #999999;
+}
+footer section:nth-of-type(3) div span:nth-of-type(2){
+    color: #CCCCCC;
+}
